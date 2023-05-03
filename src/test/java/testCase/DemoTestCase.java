@@ -52,7 +52,7 @@ public class DemoTestCase extends BaseClass
 				String confrmmsg=po.getconfmsg();
 				
 				{
-				if(confrmmsg.equals("Your registration completed"))
+				if(confrmmsg.equals("Your registration completed1"))
 				{
 					logger.info("testcase Successful");
 					Assert.assertTrue(true);
